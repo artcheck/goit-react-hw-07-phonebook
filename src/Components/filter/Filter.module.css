@@ -17,15 +17,16 @@ justify-content: center;
  font-weight: 500;
 }
 .inputName {
+ margin: 0 auto;
  display: block;
  max-width: 200px;
  height: 30px;
  padding-left: 10px;
- border-radius: 5px;
- border: 1px solid rgba(33, 33, 33, 0.2);
+ border-radius: 15px;
+ border: 3px solid rgba(33, 33, 33, 0.2);
 }
 .inputName:focus {
- outline: 4px solid #2196f3;
+ outline: 2px solid #2196f3;
  cursor: pointer;
 }
 .buttonAddContact {

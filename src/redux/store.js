@@ -1,4 +1,3 @@
-  
 //============================= Redux ================================
 
 // import { createStore } from "redux";
@@ -9,6 +8,7 @@
 // export default store;
 
 //============================= Redux Toolkit ================================
+
 import rootReducer from "./rootReducer";
 import { configureStore } from "@reduxjs/toolkit";
 const store = configureStore({ reducer: rootReducer });

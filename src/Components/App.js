@@ -5,18 +5,18 @@ import ContactForm from "./contactForm/ContactForm";
 import Filter from "./filter/Filter";
 
 const App = () => {
-
  return (
   <>
    <Section title={"Phonebook"}>
     <ContactForm />
    </Section>
+
    <Section title={"Contacts"}>
     <Filter />
+
     <ContactList />
    </Section>
   </>
  );
 };
-
 export default App;

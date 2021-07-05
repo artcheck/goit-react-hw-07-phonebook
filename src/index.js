@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "modern-normalize/modern-normalize.css";
+import './index.css';
+import App from './components/App';
 import {Provider} from 'react-redux';
-import App from './Components/App';
 import store from './redux/store';
 
 ReactDOM.render(
@@ -12,3 +14,4 @@ ReactDOM.render(
  </React.StrictMode>,
  document.getElementById("root")
 );
+
