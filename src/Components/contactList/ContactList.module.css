@@ -1,24 +1,26 @@
-.mainContainer{
-    width: 500px;
-    margin: 0 auto;
-    padding: 10px;
- }
-.newContact{
-    font-size: 20px;
-    font-weight: 500;
-    text-align: center;
+.mainContainer {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
 }
-.newContactName{
-    display: inline-block;
-    color:rgb(0, 0, 0);
-    margin-right: 20px;
+.newContact {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
 }
-.btn{
-    padding: 3px;
-    display: inline-block;
+.newContactName {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
 }
-.btn:hover{
-    cursor: pointer;
-    background-color: #2196f3;
-    color: white;
+.btn {
+  padding: 3px;
+  display: inline-block;
+  border-radius: 15px;
+  width: 100px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
 }
